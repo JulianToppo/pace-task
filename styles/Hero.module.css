@@ -1,0 +1,102 @@
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fcb69f, #ffecd2, #f6d365);
+    }
+    20% {
+        background: linear-gradient(45deg, #a1c4fd, #c2e9fb, #667eea, #764ba2, #ff6a88);
+    }
+    40% {
+        background: linear-gradient(45deg, #43e97b, #38f9d7, #667eea, #9f44d3, #fc466b);
+    }
+    60% {
+        background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fcb69f, #ffecd2, #f6d365);
+    }
+    80% {
+        background: linear-gradient(45deg, #a1c4fd, #c2e9fb, #667eea, #764ba2, #ff6a88);
+    }
+    100% {
+        background: linear-gradient(45deg, #43e97b, #38f9d7, #667eea, #9f44d3, #fc466b);
+    }
+}
+
+
+
+.herosection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+  
+    font-size: 1rem;
+  
+    padding-top: 5%;
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s ease-in infinite;
+}
+
+.credentials {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    font-size: 1rem;
+    gap: 2%;
+}
+
+.username {
+    font-size: 7rem;
+    align-self: center; 
+    letter-spacing: 0.4cm;
+}
+
+.profileHeading {
+    font-size: 1.5rem;
+    align-self: center;
+   
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10%;
+
+    padding: 2%;
+    height: 40%;
+}
+
+.socialIcons {
+    display: flex;
+    width: 10%;
+ 
+    justify-content: space-between;
+
+}
+
+.aboutMeButton{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  
+}
+
+.aboutMeButton>button{
+
+    padding-inline: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1rem;
+
+    
+
+    border-radius: 25px;
+}
+
