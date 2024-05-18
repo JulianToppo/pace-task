@@ -1,0 +1,38 @@
+.aboutMeSection{
+    display: flex;
+    padding: 5%;
+    gap:5%;
+    align-items: center;
+    color: white;
+    background-color: rgba(6, 39, 84);
+    width: 100%;
+    height: 100%;
+    
+}
+.myImage{
+    border-radius: 60%;
+    overflow: hidden;
+    width: 50%;
+}
+
+.profileimage{
+    width: 100%;
+    height: 100%;
+}
+
+.AboutMe{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap:2%;
+   
+    padding: 4%;
+}
+
+.aboutMeHeading{
+    font-size: 3rem;
+    letter-spacing: 0.1cap;
+}
