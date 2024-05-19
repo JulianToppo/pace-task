@@ -1,6 +1,7 @@
 import React from "react";
 import { projects } from "@/utils/data/projects";
 import style from "@/styles/Projects.module.css";
+import Image from "next/image";
 
 const Projects = () => {
   return (
@@ -10,10 +11,10 @@ const Projects = () => {
         {projects.map((projects, index) => {
           return (
             <div key={"projects"+index} className={style.project_tab}>
-              <img
+              <Image
                 className={style.projectPhoto}
                 src={projects.imageSrc}
-              ></img>
+              ></Image>
               <p className={style.projectHeading}>{projects.title}</p>
               <p className={style.projectDescription}>{projects.description}</p>
               <div className={style.techtags}>
