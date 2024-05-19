@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import style from "@/styles/Header.module.css";
 import NavSidebar from "./Navbar";
+import Image from "next/image";
 const Header = () => {
 
   const [isMobile, setIsMobile] = useState(false);
