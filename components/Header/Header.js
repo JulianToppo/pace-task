@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className={style.headersection}>
       <span className={style.header}>
-        <p> {"<" + "Julian" + "/>"}</p>
+        <p className={style.username}> {"<" + "Julian" + "/>"}</p>
         <div className={style.navbar}>
           <p>
             <a href="#about">About</a>

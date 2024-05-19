@@ -68,3 +68,12 @@
         width: 100%;
     }
 }
+
+@media  (max-width:768px)  {
+    .username{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
