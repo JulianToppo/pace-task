@@ -34,12 +34,12 @@ const Header = () => {
         {isMobile ? 
         openDropDown==true?
         <NavSidebar toggleShow={setOpenDropDown} openDropDown={openDropDown} isMobileVersion={isMobile}/>
-          :<img
+          :<Image
           className={style.navbar_dropdown}
           src={"/icons/dropdownsettings.png"}
 
           onClick={ondropDownClickHandler}
-        ></img>
+        ></Image>
        : (
         <NavSidebar isMobileVersion={isMobile}/>
       )}

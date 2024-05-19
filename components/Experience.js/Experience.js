@@ -40,8 +40,8 @@ const Experience = () => {
                     {job.startDate.toString() + "-" + job.endDate.toString()}
                   </p>
                   <ul>
-                    {job.experiences.map((item) => {
-                      return <li className={style.smalltext}>{item}</li>;
+                    {job.experiences.map((item,key) => {
+                      return <li key={key} className={style.smalltext}>{item}</li>;
                     })}
                   </ul>
                 </div>
