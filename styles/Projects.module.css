@@ -1,0 +1,116 @@
+.container {
+    display: block;
+    background-color: rgba(6, 39, 84);
+    padding:10%;
+    
+}
+
+.heading{ 
+    color: white;
+    /* margin-left: 10%; */
+    text-transform: uppercase;
+}
+
+.projects {
+    display: flex;
+    overflow-anchor: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 5%; 
+
+}
+
+.project_tab {
+    background-color: rgb(124, 128, 192);
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+   
+    border-radius: 25px;
+}
+
+.project_tab img {
+    width: 100%;
+}
+
+.techtags {
+    
+    display: flex;
+    width: 100%;
+
+    flex-wrap: wrap;
+    /* background-color: rgb(124, 128, 192, 0.3); */
+    align-content: center;
+}
+
+.tags {
+    display: inline;
+    padding: 2.5%;
+    padding-inline: 5%;
+    background-color: rgb(148, 137, 121);
+    /* margin: 2%; */
+    margin:1%;
+    font-size: 0.8rem;
+    border-radius: 25px;
+
+
+}
+
+.buttons_bars {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    background-color: inherit;
+}
+
+.local>a {
+    padding: 5%;
+    text-decoration: none;
+
+}
+
+.local{
+    padding: 2%;
+    padding-inline: 10%;
+    border-radius: 25px;
+}
+
+.projectPhoto {
+    width: 400px;
+    height: 100px;
+}
+
+.projectHeading {
+    font-weight: bolder;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.projectDescription{
+    font-size: 1rem;
+    color: white;
+}
+
+
+@media screen and (max-width:830px) {
+
+    .projects{
+        padding: 0;
+    }
+
+    .project-tab{
+        width: 100%;
+        padding: 5%;
+    }
+    .tags{
+        padding: 2%;
+    }
+    .buttons-bars button{
+        width: 100%;
+    }
+}

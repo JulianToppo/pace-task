@@ -1,0 +1,32 @@
+.getInTouchSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8%;
+    gap:10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.madeby{
+    display: flex;
+    align-content: center;
+    padding: 2%;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.username{
+    padding:2%;
+    padding-inline:4%;
+    
+    border-radius: 25px;
+    color: black;
+    font-weight: 600;
+}
+
+.invert{
+    filter: invert();
+}
