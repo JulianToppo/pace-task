@@ -52,13 +52,13 @@
 
 .username {
     font-size: 7rem;
-    align-self: center; 
+    text-align: center;
     letter-spacing: 0.4cm;
 }
 
 .profileHeading {
     font-size: 1.5rem;
-    align-self: center;
+    text-align: center;
    
 }
 
@@ -106,3 +106,29 @@
     border-radius: 25px;
 }
 
+
+@media (max-width:768px) {
+    .username{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .credentials{
+        height:40%;
+    }
+
+    .profileHeading{
+        padding:5%;
+    }
+
+    .socials{
+        height: 20%;
+    }
+    .herosection{
+        gap: 0%;
+    }
+    .socialIcons{
+        width:50%;
+        justify-content: space-around;
+    }
+}
