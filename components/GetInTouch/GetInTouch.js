@@ -6,15 +6,15 @@ const GetInTouch = () => {
     <div className={style.getInTouchSection} id="getintouch">
       <h1 className={style.heading}>Get In Touch </h1>
       <p className={style.details}>
-      I&apos;m currently looking for full-time Backend/Frontend Developer
+        I&apos;m currently looking for full-time Backend/Frontend Developer
         opportunities! If you know of any positions available, if you have any
         questions, or if you just want to say hi, please feel free to email me
-        at, juliantoppo95@gmail.com.  
+        at, juliantoppo95@gmail.com.
       </p>
 
       <p className={style.madeby}>
         <Image
-           className={style.invert}
+          className={style.invert}
           src={"/icons/coding.png"}
           width={20}
           height={20}
@@ -22,7 +22,6 @@ const GetInTouch = () => {
         />
         with
         <Image
-         
           src={"/icons/heart.png"}
           width={20}
           height={20}
