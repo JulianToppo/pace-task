@@ -98,13 +98,13 @@
 }
 
 
-@media screen and (max-width:830px) {
+@media screen and (max-width:768px) {
 
     .projects{
         padding: 0;
     }
 
-    .project-tab{
+    .project_tab{
         width: 100%;
         padding: 5%;
     }
