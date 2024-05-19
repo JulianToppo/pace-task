@@ -4,7 +4,7 @@ import style from "@/styles/Hero.module.css";
 
 const Hero = () => {
   return (
-    <div className={style.herosection}>
+    <div className={style.herosection} id="hero">
       <div className={style.credentials}>
         <h1 className={style.username}>Julian Toppo</h1>
         <p className={style.profileHeading}>
