@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <div className={style.container} >
+    <div className={style.container} id="experience">
       <h1 className={style.heading}>Experience</h1>
       <div className={style.experience}>
         <div className={style.techstack}>

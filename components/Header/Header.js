@@ -5,9 +5,9 @@ const Header = () => {
     <div className={style.header} >
         <p> {"<"+"Julian"+"/>"}</p>
         <div className={style.navbar}>
-            <p>Projects</p>
-            <p>Resume</p>
-            <p>About</p>
+            <p><a href="#projects">Projects</a></p>
+            <p><a  href="#experience">Experience</a></p>
+            <p><a  href="#about">About</a></p>
             <p>Skills</p>
         </div>
     </div>
@@ -15,3 +15,4 @@ const Header = () => {
 }
 
 export default Header
+

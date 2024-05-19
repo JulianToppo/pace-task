@@ -3,7 +3,7 @@ import React from 'react'
 import style from '@/styles/AboutUs.module.css'
 const AboutUs = () => {
   return (
- <div className={style.aboutMeSection}>
+ <div className={style.aboutMeSection} id="about">
         <div className={style.myImage}>
             <Image className={style.profileimage} src={"/icons/aboutme.png"} width={500} height={500} alt="aboutme image"/>
         </div>

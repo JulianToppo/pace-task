@@ -51,11 +51,12 @@
     display: inline;
     padding: 2.5%;
     padding-inline: 5%;
-    background-color: rgb(148, 137, 121);
+    background-color: rgb(0, 0, 0);
     /* margin: 2%; */
     margin:1%;
     font-size: 0.8rem;
     border-radius: 25px;
+    color: white;
 
 
 }

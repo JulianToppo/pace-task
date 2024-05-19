@@ -4,8 +4,8 @@ import Image from "next/image";
 const GetInTouch = () => {
   return (
     <div className={style.getInTouchSection}>
-      <h1>Get In Touch </h1>
-      <p>
+      <h1 className={style.heading}>Get In Touch </h1>
+      <p className={style.details}>
         I'm currently looking for full-time Backend/Frontend Developer
         opportunities! If you know of any positions available, if you have any
         questions, or if you just want to say hi, please feel free to email me

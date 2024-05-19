@@ -10,7 +10,7 @@
     width: 100%;
     background-color: rgba(173, 163, 134,0.2);
     font-weight: 500;
-    position:absolute;
+    position:fixed;
    
    
 
@@ -30,4 +30,9 @@
     font-size: 1.2rem;
     font-weight: 100;
 
+}
+
+.navbar>p>a{
+    text-decoration: none;
+    color: black;
 }
