@@ -30,7 +30,7 @@ const Experience = () => {
         <div className={style.history}>
           {exp?.map((job, id) => {
             return (
-              <div key={id} className={style.jobdetails}>
+              <div key={"exp"+id} className={style.jobdetails}>
                 <Image src={job.imageSrc} alt={"image" + id} width={100} height={100}></Image>
 
                 <div className={style.worksummary}>

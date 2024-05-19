@@ -9,7 +9,7 @@ const Projects = () => {
       <div className={style.projects}>
         {projects.map((projects, index) => {
           return (
-            <div key={index} className={style.project_tab}>
+            <div key={"projects"+index} className={style.project_tab}>
               <img
                 className={style.projectPhoto}
                 src={projects.imageSrc}
@@ -18,7 +18,7 @@ const Projects = () => {
               <p className={style.projectDescription}>{projects.description}</p>
               <div className={style.techtags}>
                 {projects.skills.map((tech,index) => {
-                  return <div key={index} className={style.tags}> {tech}</div>;
+                  return <div key={"skills"+index} className={style.tags}> {tech}</div>;
                 })}
               </div>
 
