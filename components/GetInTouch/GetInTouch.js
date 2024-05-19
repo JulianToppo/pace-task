@@ -3,7 +3,7 @@ import style from "@/styles/GetInTouch.module.css";
 import Image from "next/image";
 const GetInTouch = () => {
   return (
-    <div className={style.getInTouchSection}>
+    <div className={style.getInTouchSection} id="getintouch">
       <h1 className={style.heading}>Get In Touch </h1>
       <p className={style.details}>
         I'm currently looking for full-time Backend/Frontend Developer

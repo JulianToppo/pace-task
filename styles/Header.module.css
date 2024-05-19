@@ -1,38 +1,70 @@
-.header{
+.headersection {
     display: flex;
+    position: fixed;
+    width: 100%;
     height: 10vh;
-   
-    width: 40%;
-    justify-content: flex-start;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     font-size: 1.2rem;
-    padding: 2%;
-    width: 100%;
-    background-color: rgba(173, 163, 134,0.2);
-    font-weight: 500;
-    position:fixed;
-   
-   
 
-    
+    width: 100%;
+    /* background-color: rgba(173, 163, 134,0.5); */
+    font-weight: 500;
+    position: absolute;
+    z-index: 2;
+
+
+
+
 }
 
-.navbar{
+.navbar {
     display: flex;
     width: 40%;
-   
     justify-content: space-evenly;
-    
+
 
 }
 
-.navbar>p{
+.navbar>p {
     font-size: 1.2rem;
     font-weight: 100;
 
 }
 
-.navbar>p>a{
+.navbar>p>a {
     text-decoration: none;
     color: black;
+}
+
+.progress_container {
+    width: 100%;
+    background-color:transparent;
+    border-radius: 25px;
+
+    overflow: hidden;
+    /* box-shadow: 0 4px 6px rgba(117, 101, 216, 0.1); */
+    position: absolute;
+}
+
+.progress_bar {
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    animation: loadAnimation 7s forwards infinite;
+}
+
+@keyframes loadAnimation {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
